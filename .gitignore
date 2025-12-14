@@ -1,0 +1,62 @@
+# Frontend (React)
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.DS_Store
+frontend/*.pem
+
+# Backend (PHP)
+backend/.env
+backend/config.local.php
+backend/logs/
+backend/tmp/
+backend/uploads/
+
+# Database
+database/.backup/
+*.sql.bak
+
+# IDE & Editor
+.vscode/
+.idea/
+.sublime-project
+.sublime-workspace
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# OS Files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Miscellaneous
+.env
+.env.local
+.env.*.local
+*.log
+*.bak
+*.swp
+.todo
+.cache/
+
+# Node package manager
+package-lock.json
+yarn.lock
+
+# PHP Composer
+vendor/
+composer.lock
